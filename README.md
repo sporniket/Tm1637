@@ -11,7 +11,7 @@ GPL v3
 
 ### v0.0.2
 
-* Update to `SevenSegments-by-sporniket@0.0.2`
+* Upgrade to `SevenSegments-by-sporniket` to version 0.0.2.
 
 ### v0.0.1
 
