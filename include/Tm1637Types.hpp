@@ -15,8 +15,8 @@
 // You should have received a copy of the GNU General Public License along 
 // with 'Tm1637-by-sporniket'. If not, see <https://www.gnu.org/licenses/>. 
 
-#ifndef TM1637TYPES_HPP
-#define TM1637TYPES_HPP
+#ifndef TM1637_TYPES_HPP
+#define TM1637_TYPES_HPP
 
 // standard includes
 #include <cstdint>

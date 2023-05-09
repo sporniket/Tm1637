@@ -1,5 +1,5 @@
 # Tm1637 Model
-C++ library for PlatformIO, a model to interface with the 7-segment controller TM1637.
+C++ library for PlatformIO, a platform independant model to interface with the 7-segment controller TM1637.
 
 [![PlatformIO Registry](https://badges.registry.platformio.org/packages/sporniket/library/Tm1637-by-sporniket.svg)](https://registry.platformio.org/libraries/sporniket/Tm1637-by-sporniket)
 
@@ -8,6 +8,10 @@ C++ library for PlatformIO, a model to interface with the 7-segment controller T
 GPL v3
 
 ## What's new
+
+### v0.0.2
+
+* Update to `SevenSegments-by-sporniket@0.0.2`
 
 ### v0.0.1
 

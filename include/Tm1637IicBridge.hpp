@@ -15,8 +15,8 @@
 // You should have received a copy of the GNU General Public License along 
 // with 'Tm1637-by-sporniket'. If not, see <https://www.gnu.org/licenses/>. 
 
-#ifndef TM1637IIC_BRIDGE_HPP
-#define TM1637IIC_BRIDGE_HPP
+#ifndef TM1637_IIC_BRIDGE_HPP
+#define TM1637_IIC_BRIDGE_HPP
 
 // standard includes
 #include <cstdint>
@@ -32,12 +32,12 @@
  * Compared to a basic 7-segment display module, a TM1637 is able to manage a keyboard of up to 16 keys.
  */
 template <typename ReturnCode>
-class Tm1637IicBridge : SevenSegmentsIicBridge<ReturnCode> {
+class Tm1637IicBridge : SevenSegmentsBridge<ReturnCode> {
 private:
 public:
   virtual ~Tm1637IicBridge() {}
-  virtual IicStatus<ReturnCode> scanKey(Tm1637Registers *registers,
-                                        IicDeviceId recipient) = 0 ;
+  virtual BridgeStatus<ReturnCode> scanKey(Tm1637Registers *registers,
+                                        BridgeId recipient) = 0 ;
 };
 
 #endif
