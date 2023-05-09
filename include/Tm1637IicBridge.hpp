@@ -24,7 +24,7 @@
 // esp32 includes
 
 // project includes
-#include "SevenSegmentsIicBridge.hpp"
+#include "SevenSegmentsBridge.hpp"
 #include "Tm1637Types.hpp"
 
 /** @brief Model of a module controlled by a TM1637, and addressable through an I2C link.

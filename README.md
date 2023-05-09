@@ -9,6 +9,11 @@ GPL v3
 
 ## What's new
 
+### v0.0.3
+
+* Fixed include from `SevenSegments-by-sporniket` that was not renamed
+
+
 ### v0.0.2
 
 * Upgrade to `SevenSegments-by-sporniket` to version 0.0.2.

@@ -1,6 +1,6 @@
 {
     "name": "Tm1637-by-sporniket",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "C++ library for PlatformIO, a platform independant model to interface with the 7-segment controller TM1637.",
     "keywords": "IIC, I2C, tm1637, TM1637",
     "dependencies": {
